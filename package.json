@@ -1,0 +1,26 @@
+{
+  "name": "next-mdbreact-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "NODE_ENV=production next build && NODE_ENV=production node ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.17.1",
+    "mdbreact": "^4.19.1",
+    "next": "^9.0.5",
+    "next-compose-plugins": "^2.2.0",
+    "next-fonts": "^0.17.0",
+    "next-images": "^1.1.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
